@@ -1,0 +1,138 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  background-color: rgba(164, 166, 173, 0.5);
+}
+.weather-app {
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 500px;
+  height: 580px;
+  margin: 0 auto;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  display: block;
+  cursor: default;
+}
+
+#search-form {
+  text-align: center;
+  margin: 10px auto;
+  font-size: 15px;
+}
+#search-input {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  text-transform: capitalize;
+}
+
+#submit {
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: #f3c623;
+  padding: 5px;
+  margin: auto 5px;
+  font-weight: bolder;
+  transition: all 150ms ease-in-out;
+}
+
+::placeholder {
+  color: white;
+}
+
+#submit:hover {
+  background-color: #d6ae20;
+}
+#location-button {
+  background-color: transparent;
+  color: purple;
+  border: none;
+  font-size: 25px;
+}
+
+h1 {
+  text-align: center;
+  color: #f3c623;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black;
+}
+#last-updated {
+  color: #f4f6ff;
+  text-align: center;
+  font-size: 10px;
+  margin: 0 auto 5px;
+}
+hr {
+  border: 1px dotted rgba(243, 198, 35, 0.6);
+  width: 100%;
+  margin: 0 auto 5px;
+}
+
+h2 {
+  text-align: center;
+
+  color: #f4f6ff;
+  position: relative;
+  bottom: 25px;
+}
+
+#current-temp {
+  font-size: 43px;
+}
+.current-unit {
+  font-size: 18px;
+  position: relative;
+  bottom: 22px;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  margin: 10px auto 30px;
+  font-size: 17px;
+  color: #f4f6ff;
+}
+.current-condition {
+  text-transform: capitalize;
+}
+
+.conditions {
+  position: relative;
+  bottom: 135px;
+  color: #f4f6ff;
+  font-size: 15px;
+  line-height: 3;
+  text-align: center;
+}
+#sunrise,
+#sunset {
+  top: 40px;
+}
+#wind,
+#precipitation {
+  top: 15px;
+}
+#moon-image {
+  max-width: 120px;
+  margin: 0 15px;
+}
+
+.current-condition {
+  color: #f4f6ff;
+  font-size: 22px;
+  position: relative;
+  bottom: 30px;
+  margin: 0 auto 20px;
+}
+
+.forecast {
+  color: #f4f6ff;
+  font-size: 18px;
+  margin: 0 15px;
+  position: relative;
+  bottom: 70px;
+}
+.forecast-image {
+  max-width: 30px;
+}
